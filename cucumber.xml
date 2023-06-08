@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.041" tests="0" skipped="0" failures="0" errors="0">
+<testsuite name="Cucumber" time="65.414" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Landing" name="Validate User navigates to Landing Page" time="17.137">
+<system-out><![CDATA[
+Given chrome is launched and Opencart is launched...........................passed
+Then User navigates on Landing Page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing" name="Validate Landing Page UI" time="13.177">
+<system-out><![CDATA[
+Given chrome is launched and Opencart is launched...........................passed
+Then User navigates on Landing page.........................................passed
+And fields are visible on the Landing page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing" name="Validate Landing page fields(Login button is clickable)" time="34.915">
+<system-out><![CDATA[
+Given chrome is launched and Opencart is launched...........................passed
+Then User navigates on Landing page.........................................passed
+When User clicks on login button............................................passed
+Then Login button is clickable and User navigates to login page.............passed
+]]></system-out>
+</testcase>
 </testsuite>
